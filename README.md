@@ -52,14 +52,34 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+file1 file2 differ: byte 1, line 1
+
+
+
  
 comm file1 file2
  ## OUTPUT
+anil aggarwal
+	barun sengupta
+chanchal singhvi
+		c.k. shukla
+	lalit chowdury
+		s.n. dasgupta
+sumit chakrobarty
 
  
 diff file1 file2
 ## OUTPUT
 
+1c1,2
+< chanchal singhvi
+---
+> anil aggarwal
+> barun sengupta
+2a4
+> lalit chowdury
+4d5
+< sumit chakrobarty
 
 #Filters
 
@@ -83,16 +103,22 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+Hel
+Thi
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+1001 
+1002 
+1003 
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
 
 
 cat < newfile 
@@ -108,29 +134,34 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-
+Hello world
 
 grep hello newfile 
 ## OUTPUT
 
+hello world
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+Hello world
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+Hello world
+hello world
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+2
 
 
 grep -R ubuntu /etc
