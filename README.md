@@ -313,6 +313,7 @@ seq 10
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+12233
 
 
 
