@@ -71,17 +71,6 @@ diff file1 file2
 ![image](https://github.com/user-attachments/assets/cc82483b-9672-446b-9c0d-ce9dc26c83b0)
 
 
-1c1,2
-< chanchal singhvi
----
-> anil aggarwal
-> barun sengupta
-2a4
-> lalit chowdury
-4d5
-< sumit chakrobarty
-
-#Filters
 
 ### Create the following files file11, file22 as follows:
 
@@ -102,25 +91,21 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-Hel
-Thi
+![image](https://github.com/user-attachments/assets/2f2cd5c0-2189-4bf4-b01d-b0c50786f9f4)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-1001 
-1002 
-1003 
+![image](https://github.com/user-attachments/assets/3ac90117-50ed-48ae-8220-d6eed29613ab)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-Ram 
-tom 
-Joe 
+![image](https://github.com/user-attachments/assets/fece6ccb-158b-4ea6-bbfb-040ddf130937)
+
 
 
 cat < newfile 
