@@ -42,12 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-12344
+![image](https://github.com/user-attachments/assets/d9360d68-4641-40ae-a082-bf540cd822fb)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6a07835b-b988-4dce-aae3-c48d33b3f4e0)
+
 
 
 # Comparing Files
