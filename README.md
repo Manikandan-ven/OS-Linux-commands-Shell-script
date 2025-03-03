@@ -55,24 +55,21 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-file1 file2 differ: byte 1, line 1
+![image](https://github.com/user-attachments/assets/5ffbf8e1-d192-4c91-8c0a-564da7017a05)
+
 
 
 
  
 comm file1 file2
  ## OUTPUT
-anil aggarwal
-	barun sengupta
-chanchal singhvi
-		c.k. shukla
-	lalit chowdury
-		s.n. dasgupta
-sumit chakrobarty
+![image](https://github.com/user-attachments/assets/88f0ba70-56f6-4791-80c4-9c9c69306078)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cc82483b-9672-446b-9c0d-ce9dc26c83b0)
+
 
 1c1,2
 < chanchal singhvi
