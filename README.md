@@ -186,27 +186,32 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/feeda998-82df-4779-acc9-d2ad36978b95)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/1c01ee9f-bb4f-4a9a-9fdb-32bdbd364f44)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/6ab34a99-30c7-465b-b837-25d923be4eea)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e6c4a489-1bcd-492f-b7a5-b6e47a33c8d0)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/50572cf5-7233-40f0-8049-ec6cbff4f987)
 
 
 
