@@ -377,6 +377,8 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/2af30bb8-6793-4650-82a9-4fd2d2900223)
 
 
