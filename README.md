@@ -404,9 +404,11 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
 uniq file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e0c0cbcf-5e80-4225-9b55-9ec5c47453ea)
 
 
 
@@ -414,6 +416,9 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+ ![image](https://github.com/user-attachments/assets/50fbb195-59b9-4929-968b-5bcbc39e9b60)
+
 
 cat < urllist.txt
 ```
@@ -430,17 +435,23 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/3d242f12-03f2-4cb4-af6b-491234dc133c)
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/62f1bc91-3a4d-46d9-847e-8b68d0b18ae8)
+
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/43ee37c4-d44d-4f70-999b-c69c41f8027a)
+
 
 
 mkdir backupdir
