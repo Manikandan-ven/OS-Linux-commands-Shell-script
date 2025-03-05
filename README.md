@@ -217,33 +217,47 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8acb4950-0163-4c89-95a0-2a641fa8e13d)
+
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c79b0c71-c2fc-4914-a8f5-2614557bbbb5)
+
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e81e1122-fdee-4307-93b8-eafc932fd53e)
+
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a3efeb4b-7583-488c-ad59-fca916a737eb)
+
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1c9ffec6-218d-4e09-8207-4f55608a998d)
+
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ec92c79f-1782-46ec-87cf-6ab2570c007b)
+
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/e0de5a22-e6a6-4cd6-9894-322cc392f758)
+
 
 
 cat > file23
@@ -262,53 +276,70 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/226fd0e3-1dd2-426a-afbc-a23c5d9c9c4f)
+
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6adbc168-1768-4368-92f0-2298fb4b2503)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/13b686b5-1606-4b24-841e-a27f3ebbf028)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3ac58093-cd85-4c4d-a74d-af38f4cc0aab)
+
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bd09170b-7a88-4741-a2b7-db50607bce3d)
+
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cc4181ce-0749-4005-bce5-28aa3b28afe9)
+
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7c9768ab-09ca-45b8-90b9-5f8397546a77)
+
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a9bcb8c5-21fc-4eda-a351-fc9c550f7510)
+
 
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d7214d6a-9376-48eb-9a18-fa14d7bc1166)
+
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-12233
+1![image](https://github.com/user-attachments/assets/224480b9-49f8-4b85-bbbe-7ba11f7d86ef)
+
 
 
 
