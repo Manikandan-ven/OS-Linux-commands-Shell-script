@@ -460,18 +460,25 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/28e3af2c-1c3d-4b21-a053-25e29d07ed38)
+
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/211bb6b9-df1c-425f-83f2-80c33e5c5b38)
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cc223a28-6990-44dd-8dd8-83fa1b6c21fa)
+
 
  
 # Shell Script
