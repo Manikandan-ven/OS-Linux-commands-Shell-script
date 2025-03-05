@@ -345,28 +345,40 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c41e44ba-947a-48c2-ac72-7e342ae4ae60)
+
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/996dfaa9-6575-4ad8-b183-26a8144be1ae)
+
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3f69cd60-2175-4873-9ce5-6fc35facad78)
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d3e41110-e6f9-4453-81c0-d961ef577f59)
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/715a3f06-9529-42b2-adec-f50df6bbfd96)
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+![image](https://github.com/user-attachments/assets/2af30bb8-6793-4650-82a9-4fd2d2900223)
+
 
 
 #Sorting File content
