@@ -489,6 +489,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cb85bb06-c6ea-49fc-978f-fd391f6ed0c5)
 
  
 cat << stop > herecheck.txt
@@ -501,6 +502,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/70a38dc7-e1c6-466f-8022-02a28d79d1e1)
+
 
 
 cat < scriptest.sh 
