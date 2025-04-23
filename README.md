@@ -1226,8 +1226,7 @@ fi
 ```
 ## OUTPUT 
 
-![Screenshot 2024-03-01 233618](https://github.com/RAGULRAAJAN/OS-Linux-commands-Shell-script/assets/147473144/27199787-e397-4b51-b87d-e4736a1615fa) “Yes,$HOME it is a file!”
-
+![Screenshot 2024-03-01 233618](https://github.com/RAGULRAAJAN/OS-Linux-commands-Shell-script/assets/147473144/27199787-e397-4b51-b87d-e4736a1615fa) 
 ```
 
 
