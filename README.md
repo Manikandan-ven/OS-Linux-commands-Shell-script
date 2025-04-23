@@ -1234,8 +1234,15 @@ then
 echo “But $HOME/.bash_history is a file!”
 fi
 ```
+
+
+
+
 ## OUTPUT 
 
 
 # RESULT:
+
+
+
 The Commands are executed successfully.
