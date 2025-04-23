@@ -1227,18 +1227,12 @@ fi
 ## OUTPUT 
 
 ![Screenshot 2024-03-01 233618](https://github.com/RAGULRAAJAN/OS-Linux-commands-Shell-script/assets/147473144/27199787-e397-4b51-b87d-e4736a1615fa) “Yes,$HOME it is a file!”
-else
-echo “No,$HOME it is not a file!”
-if [ -f $HOME/.bash_history ]
-then
-echo “But $HOME/.bash_history is a file!”
-fi
+
 ```
 
 
 
 
-## OUTPUT 
 
 
 # RESULT:
