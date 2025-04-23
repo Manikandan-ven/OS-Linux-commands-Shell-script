@@ -600,6 +600,8 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/3337e0c7-5118-4e56-89ad-5c3e63195f07)
+
 
 
 
@@ -607,6 +609,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f1d4553f-7cb2-4d04-85b2-da1879e6cf89)
+
 
 
 # check file ownership
