@@ -546,19 +546,28 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3f93fb81-1de8-4eeb-a42d-c2a75f3edf47)
+
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
+![image](https://github.com/user-attachments/assets/cf0ab057-ba2e-4e90-9869-b91b641f4ae5)
+
  
 echo $?
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/57e3543e-3a52-4850-82be-9f85dd9ee4d7)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/80b77f18-5bc7-48de-9102-18ecbf94dece)
+
+ 
 
 
  
